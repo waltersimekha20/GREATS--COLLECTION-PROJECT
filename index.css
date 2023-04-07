@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+   
+       
+        margin: auto;
+        cursor: pointer;;
+        background-color: rgb(202, 191, 191);
+       
+   
+}
+
+#all{
+
+    border: solid;
+    display: grid;
+   box-shadow: 0px 0px 30px 10px;
+}
+.navbar{
+display: flex;
+align-items: center;
+padding: 20px;
+justify-content: space-between;
+}
+nav{
+    text-align: right;
+    flex: 1;
+}
+nav ul{
+display: inline;
+list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 202px;
+    font-size: 40px; 
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-property: color;
+
+    
+
+}
+nav ul li:hover{
+background:rgb(12, 44, 184);
+}
+a{
+    text-decoration: none;
+    color: #2b2525;
+}
+p{
+    color: #2b2525;
+
+}
+.container1{
+margin: auto;
+padding-right: 25px;
+padding-left: 25px;
+max-width: 1300px;
+border: solid;
+ display: grid;
+box-shadow: 0px 0px 30px 10px; 
+
+   
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+/* .container{
+background-color: aqua;
+} */
+/* .contaner-2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+} */
+.container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  #search-bar {
+    width: 300px; /* set the width of the input */
+    height: 100px; /* set the height of the input */
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px rgba(8, 8, 8, 0.2);
+    font-size: 30px;
+  }
+  
+  #search-bar:hover,
+  #search-bar:active
+  {
+    color: beige;
+    box-shadow: black;
+  background-color: rgb(42, 65, 165);
+   transform:rotate(0deg) scale(1.2);
+  }
+ 
+  
+  #buy{
+    width: 300px; /* set the width of the input */
+    height: 100px; /* set the height of the input */
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px rgba(8, 8, 8, 0.2);
+    font-size: 30px;
+    transition: 0.5ms;
+    background-color: whitesmoke;
+  }
+  
+  #buy:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* add a hover style */
+    background-color: aqua;
+  }
+  .buy-btn-class {
+  width: 100px;
+  height: 40px;
+}
+
+  
+ 
