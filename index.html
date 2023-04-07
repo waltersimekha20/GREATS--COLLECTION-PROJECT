@@ -35,9 +35,8 @@
 
 <div class="container-3">
     <input id="search-bar" type="text" placeholder="Search..">
-    <!-- <input id="buy" type="submit" value="BUY ITEM"> -->
+   
 </div>
-</form>
    
  
 <!--- content ---> 
@@ -46,7 +45,18 @@
 <div class="container-3">
     <div class="product-image"></div>
     <ul id="tshirt-list"></ul>
+   
 </div>
+<form id="create-form">
+    <input id="brand-input" type="text" placeholder="Brand">
+    <input id="type-input" type="text" placeholder="Type">
+    <input id="size-input" type="text" placeholder="Size">
+    <input id="color-input" type="text" placeholder="Color">
+    <input id="price-input" type="number" placeholder="Price">
+    <input id="image-input" type="file" accept="image/*"> <!-- Added image input -->
+    <input type="submit" value="Create">
+</form>
+
 </div>
     
  <script src="index.js"></script>   
