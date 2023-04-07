@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
     // Fetch data from the server
-    fetch('http://localhost:3000/tshirts')
+    fetch("http://localhost:3000/TSHIRTS")
     .then(response => response.json())
     .then(data => {
       // Get the tshirt-list element
@@ -40,9 +40,9 @@ window.addEventListener('load', () => {
   
       // Update the number of t-shirts bought in the cart
       const cartCount = document.getElementById('cart-count');
-      cartCount.innerText = cart.length;
+    //   cartCount.innerText = cart.length;
     })
-    .catch(error => console.error(error));
+    // .catch(error => console.error(error));
   
     // Add event listener to the search bar
     const searchBar = document.getElementById('search-bar');
