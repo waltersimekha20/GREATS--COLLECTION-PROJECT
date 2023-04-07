@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
     // Fetch data from the server
-    fetch("http://localhost:3000/TSHIRTS")
+    fetch('http://localhost:3000/tshirts')
     .then(response => response.json())
     .then(data => {
       // Get the tshirt-list element
